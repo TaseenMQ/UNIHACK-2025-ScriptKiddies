@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Scam Link Detector",
+  "version": "1.0",
+  "description": "Alerts users when they click on suspicious links.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["popup.html", "popup.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
