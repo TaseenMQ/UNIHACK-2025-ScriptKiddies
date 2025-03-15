@@ -2,7 +2,7 @@ const PHISHTANK_API_KEY = "YOUR_PHISHTANK_API_KEY"; // Register and get an API k
 const PHISHTANK_API_URL = `https://checkurl.phishtank.com/checkurl/`;
 
 const WHOIS_API_KEY = "at_XdDtkoFfICA7wFp6KA8czJaTMGsef"; 
-const GOOGLE_SAFE_BROWSING_KEY = "YOUR_GOOGLE_SAFE_BROWSING_API_KEY"; 
+const GOOGLE_SAFE_BROWSING_KEY = "AIzaSyC6sHV2e2mAK1tZy4zrjPz6YK_C3-MsMrs"; 
 
 let phishingURLs = [];
 
